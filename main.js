@@ -219,7 +219,7 @@ const addBook = () => {
   // get value from input
   const bookTitle = document.getElementById("bookFormTitle").value;
   const bookAuthor = document.getElementById("bookFormAuthor").value;
-  const bookYear = document.getElementById("bookFormYear").value;
+  const bookYear = Number(document.getElementById("bookFormYear").value);
   const bookStatus = document.getElementById("bookFormIsComplete").checked;
 
   // generate unique id
